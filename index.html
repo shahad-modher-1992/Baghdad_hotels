@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!--call font Awesome 5-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- call Font Awesome 4-->
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!--  call bootstrap bage -->
+    <link rel="stylesheet" href="css/style.css"> <!-- call style css page-->
+    <title>Assement 5</title>
+</head>
+
+<body>
+    <!----------- start header ------->
+    <header class=" position-relative">
+        <div class="overlay w-100 h-100 position-absolute"></div> <!-- to make category over header-->
+
+        <nav class="navbar navbar-expand-lg navbar-dark border-bottom fixed-top">
+            <a class="navbar-brand" href="#" style="font-size: 1.8rem;"><span class="text-primary">Baghdad</span>
+                Hotel</a>
+
+            <!-- this button will Appears in small screen to compensate for disappearance ul-->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ml-auto">
+                    <!--List of website content if you click on any one it will take you to the section which carry same name of id -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#definition">Definition <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">about <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#service">services <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#booking">Booking<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#other-hotels">Other Hotels<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#contact">contact <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+        <div class="center position-absolute ">
+            <!-- the division which I made transform and opacity at hover on it and it gشve us A summary of the service for which the site was created-->
+            <h5 class="text-white my-4 text-capitalize">Welcome to </h5>
+            <h2 class="text-white mb-4 text-capitalize">the hotel reservation service</h2>
+            <p class="lead text-capitalize text-light font-weight-bold text-justify">A hotel reservation system is a
+                complex software tool that schedules the dates and length <br> of stay for guests as well as takes
+                payment from them. ... A hotel reservation <br> system enables guests to schedule dates and length of
+                stay</p>
+            <button class="my-4 text-capitalize bg-white text-dark p-3 btn btn-outline-dark">learn more</button>
+            <button class="my-4 text-capitalize text-white  px-4 py-3 btn btn-outline-light">view Portfolo</button>
+        </div>
+    </header>
+    <!----------- end header --------->
+
+    <!--------- start Definition section ----->
+    <section class="definition" id="definition">
+        <div class="container py-5">
+            <div class="row">
+                <!-- I used grid system To divide the screen into two equal parts in the middle screen-->
+                <div class="col-md-6 my-5">
+                    <img src="img/mohamed-abouzaid-UgprORgNKCg-unsplash.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 my-5 pt-1">
+                    <h3 class="text-secondary text-capitalize mb-5">welcome to baghdad hotels</h3>
+                    <p class="lead">The Baghdad Hotel is a large hotel in Baghdad, Iraq, favored by Westerners after the
+                        2003 invasion of Iraq. The hotel overlooks the Tigris on its eastern bank.</p>
+                    <!-- summary about the hotel-->
+                    <ul class="list-unstyled">
+                        <!--list of some services in hotel-->
+                        <li class="lead p-2">free brakfast</li>
+                        <li class="lead p-2">5G Free Internet</li>
+                        <li class="lead p-2">A swimming pool is available </li>
+                        <li class="lead p-2">Online reservation service is available </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="part-2 bg-light py-5">
+            <div class="container">
+                <!-- i used container class another time to set background-color to whole part-->
+                <div class="row">
+                    <!-- I used grid system To divide the screen into two equal parts in the small screen and four equal parts in middle screen -->
+                    <div class="col-sm-6 col-md-3 text-center mb-4">
+                        <i class='fas fa-wifi bg-primary p-3 rounded-circle border-dark'></i>
+                        <h5 class="text-secondary my-3">Free Internet</h5>
+                        <p class="lead"> Importance: Free Wi-Fi for hotel guest remains the most desirable in-room
+                            amenity according to a Hotels</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4">
+                        <i class='fas fa-umbrella-beach bg-primary p-3 rounded-circle border-primary'></i>
+                        <h5 class="text-secondary my-3">Sunbathing </h5>
+                        <p class="lead"> Looking for a hotel which offers a nude sunbathing area, and an easy walk from
+                            same hotel to a nudist beach</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4">
+                        <i class='fas fa-glass-cheers bg-primary p-3 rounded-circle border-dark'></i>
+                        <h5 class="text-secondary my-3">Concerts</h5>
+                        <p class="lead"> This Week in Event Venues: Hotel Balcony Concerts, Standardized Safety
+                            Measures, and More. Rounding up the latest news </p>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4">
+                        <i class='fas fa-bed bg-primary p-3 rounded-circle border-dark'></i>
+                        <h5 class="text-secondary my-3">Double room</h5>
+                        <p class="lead">Standard Room type definition used in hotel / how to categorize or define room
+                            type in the hotel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------- end Definition section ---------->
+    <!--------- start about us section ---------->
+    <section class="about py-4 w-100" id="about">
+        <div class="container py-5">
+            <div class="row">
+                <!-- I used grid system To divide the screen into two equal parts in the middle screen-->
+                <div class="col-md-6">
+                    <h4 class="text-secondary mb-3">about us</h4> <!-- A summery about history of hotel-->
+                    <p class="lead text-capitalize">The Baghdad Hotel Bombing Terror Attack occurred on October 12,
+                        2003, when a car rigged with a bomb drove past a checkpoint near the hotel. It drove down a side
+                        street before it was fired on by guards and exploded, killing the suicide bomber and six Iraqis.
+                        Thirty-two other people were wounded, including three U.S. soldiers.<br> <br> Security officials
+                        said that concrete barriers absorbed much of the blast, and prevented the car from destroying
+                        the hotel.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/pexels-photo-3770099.jpeg" class="img-fluid" alt="">
+                    <!--img from inside the hotel-->
+                </div>
+            </div>
+        </div>
+        <div class="part-3 py-5 position-relative">
+            <div class="overlay position-absolute w-100 h-100"></div>
+            <!-- I made this div to make nice category with nice blue color over part-3 div-->
+            <div class="container py-5">
+                <!-- in this div made some counts-->
+                <div class="row">
+                    <!-- I used grid system To divide the screen into four equal parts in the middle screen-->
+                    <!-- first count-->
+                    <div class="col-md-3 text-center text-white mb-5">
+                        <i class='fas fa-thumbs-up mb-4'> </i>
+                        <h2 class="text-white mb-4">1450</h2>
+                        <h4 class="text-white">Page Like</h4>
+                    </div>
+                    <!-- second count-->
+                    <div class="col-md-3 text-center text-white mb-5">
+                        <i class='fas fa-ticket-alt mb-4'> </i>
+                        <h2 class="text-white mb-4">300</h2>
+                        <h4 class="text-white">Number of booking</h4>
+                    </div>
+                    <!-- third count-->
+                    <div class="col-md-3 text-center text-white mb-5">
+                        <i class='fas fa-bed mb-4'> </i>
+                        <h2 class="text-white mb-4">1050</h2>
+                        <h4 class="text-white">Number of rooms</h4>
+                    </div>
+                    <!-- fourth count-->
+                    <div class="col-md-3 text-center text-white">
+                        <i class='fas fa-users mb-4'> </i>
+                        <h2 class="text-white mb-4">5000</h2>
+                        <h4 class="text-white">Number of Employees </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about us section -->
+
+    <!-- start our service -->
+    <section class="service py-5" id="service">
+        <!-- in this section will show more important services-->
+        <div class="container py-4">
+            <div class="part-1 text-center mb-5">
+                <h3 class="mb-4 text-secondary">our services</h3> <!-- the heading of section-->
+                <h5 class="lead pb-3">What we are great at.</h5>
+            </div>
+            <div class="row">
+                <!-- I used grid system To divide the screen into six equal parts in the middle screen-->
+                <!-- first service-->
+                <div class="col-md-4 mb-5">
+                    <h5 class="text-secondary mb-3">Guard service</h5>
+                    <p class="lead">1 Hotel Security Guard Services. Security officer When it comes to the safety of
+                        your guests, staff and property, security is of the utmost importance</p>
+                </div>
+                <!-- secont service-->
+                <div class="col-md-4 mb-5">
+                    <h5 class="text-secondary mb-3">room service </h5>
+                    <p class="lead">Room service or in-room dining is a hotel service enabling guests to choose items of
+                        food and drink for delivery to their hotel room for consumption. </p>
+                </div>
+                <!-- third service-->
+                <div class="col-md-4 mb-5">
+                    <h5 class="text-secondary mb-3">Taxi office</h5>
+                    <p class="lead">
+                        Welcome To Hotel Taxi. We hope you enjoy our direct and easy transfer service to your hotel.
+                        Wheather you are just arriving or head home, let us get you to .</p>
+                </div>
+                <!-- fourth service-->
+                <div class="col-md-4 mb-5">
+                    <h5 class="text-secondary mb-3">Currency exchange service</h5>
+                    <p class="lead">With on-site currency exchange service, the hotel provides convenience and safety
+                        for exchanging foreign currencies to local Vietnamese Dong. Overview. Type.</p>
+                </div>
+                <!-- fifth service-->
+                <div class="col-md-4 mb-5">
+                    <h5 class="text-secondary mb-3">Baggage transport and delivery</h5>
+                    <p class="lead">Ship luggage to your hotel with Send My Bag and have it waiting for you on your ...
+                        trip and need to transport enough luggage to last them the duration of their trip.</p>
+                </div>
+                <!-- sixth service-->
+                <div class="col-md-4 mb-5">
+                    <h5 class="text-secondary mb-3">dry cleaning and ironing clothes</h5>
+                    <p class="lead"> Even if you've never used a hotel laundry service before, after bag and whether you
+                        would like each item washed, dried and folded, dry cleaned or ironed.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="video text-center bg-light w-100 py-5">
+            <!--in this div will show all information about the hotel-->
+            <h5 class="text-secondary mb-3">Our Video</h5>
+            <p class="text-secondary mb-4">Learn more about us from this video.</p>
+            <iframe width="600" height="350" src="https://www.youtube.com/embed/bLgQ9DL6k3w" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+    <!-- end our service -->
+
+    <!-- start booking -->
+    <!--in this section will see avialabe rooms and you can book any room which it like you-->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="part-1 text-center mb-5">
+                <h3 class="mb-4 text-secondary">booking</h3>
+                <!--heading of section-->
+                <h5 class="text-secondary">Rooms available for reservation </h5>
+            </div>
+            <div class="row">
+                <div class="col-md-4  ">
+                    <!-- I used grid system To divide the screen into three equal parts in the middle screen-->
+                    <div class="position-relative overflow-hidden parent">
+                        <!-- the parent div which content image of first room when i hover on it i can book the room-->
+                        <img src="img\pexels-photo-1267438.jpeg" class="img-fluid" alt="">
+                        <div class="div text-center position-absolute ">
+                            <!--the div which i can book the room from it when i hover on the parent div-->
+                            <a href="#" class="text-decoration-none"><span class="text-white mr-2"
+                                    style="font-size:20px">booking now</span></a>
+                            <i class="fa fa-bookmark" style="font-size:24px"></i>
+                        </div>
+                    </div>
+                    <div class="part-2 d-flex justify-content-between mt-4">
+                        <h5> <span class="text-danger">15$</span> one day</h5>
+                        <!--price of booking and time-->
+                        <i class="fa fa-heart text-secondary mr-3" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="col-md-4  ">
+                    <div class="position-relative overflow-hidden parent">
+                        <!-- the parent div which content image of second room when i hover on it i can book the room-->
+                        <img src="img\pexels-photo-1329711.jpeg" class="img-fluid" alt="">
+                        <div class="div text-center position-absolute ">
+                            <!--the div which i can book the room from it when i hover on the parent div-->
+                            <a href="#" class="text-decoration-none"><span class="text-white mr-2"
+                                    style="font-size:20px">booking now</span></a>
+                            <i class="fa fa-bookmark" style="font-size:24px"></i>
+                        </div>
+                    </div>
+                    <div class="part-2 d-flex justify-content-between mt-4">
+                        <h5> <span class="text-danger">13$</span> one day</h5>
+                        <!--price of booking and time-->
+                        <i class="fa fa-heart text-secondary mr-3" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="col-md-4  ">
+                    <div class="position-relative overflow-hidden parent">
+                        <!-- the parent div which content image of third room when i hover on it i can book the room-->
+                        <img src="img\pexels-photo-3144580.jpeg" class="img-fluid" alt="">
+                        <div class="div text-center position-absolute ">
+                            <!--the div which i can book the room from it when i hover on the parent div-->
+                            <a href="#" class="text-decoration-none"><span class="text-white mr-2"
+                                    style="font-size:20px">booking now</span></a>
+                            <i class="fa fa-bookmark" style="font-size:24px"></i>
+                        </div>
+                    </div>
+                    <div class="part-2 d-flex justify-content-between mt-4">
+                        <h5> <span class="text-danger">20$</span> one day</h5>
+                        <!--price of booking and time-->
+                        <i class="fa fa-heart text-secondary mr-3" style="font-size:24px"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="part-3 text-center">
+                <a href="#"><button class="my-5 py-2 px-4 btn btn-outline-primary" style="font-size: 1.1rem">Veiw
+                        More</button></a>
+                <!--when we click on it the site will show you more rooms-->
+            </div>
+        </div>
+    </section>
+    <!-- end booking -->
+
+    <!-- start other hotels -->
+    <section class="other-hotels w-100 bg-light pt-5" id="other-hotels">
+        <!--in this section will show other hotels in baghdad In the form of a card-->
+        <div class="container">
+            <div class="part-1 mb-5 text-center">
+                <h5 class="text-secondary">Other Hotels</h5>
+                <!--the heading of this section-->
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
+                <!-- I used grid system To divide the screen into three equal parts in the middle screen-->
+                <div class="col mb-3">
+                    <!-- first hotel-->
+                    <div class="card">
+                        <a href="#"> <img src="img\pexels-photo-1458457.jpeg" class="card-img-top"> </a>
+                        <!-- when i click on image will show more information about the hotel in image-->
+                        <div class="card-body">
+                            <h5 class="card-title">Coral Baghdad</h5> <!-- the name of hotel-->
+                            <p class="card-text">Located in the middle of Baghdad in one of prestigious avenues in
+                                Jadriya area, the Coral Boutique Hotel Baghdad is 3.1 miles from International Zone. It
+                                offers. </p>
+                            <a href="#" class="mr-2 text-decoration-none text-secondary" style="font-size:20px">Read
+                                More</a> <i class="fa fa-long-arrow-right " style="font-size:20px"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <!-- second hotel-->
+                    <div class="card">
+                        <a href="#"> <img src="img\pexels-photo-933337.jpeg" class="card-img-top"> </a>
+                        <!-- when i click on image will show more information about the hotel in image-->
+                        <div class="card-body">
+                            <h5 class="card-title">Andalus Apartments</h5> <!-- the name of hotel-->
+                            <p class="card-text">Located in the heart of Baghdād, Andalus Apartments offers simply
+                                furnished accommodations. It features a fitness centre and a restaurant. Guests can
+                                enjoy .</p>
+                            <a href="#" class="mr-2 text-decoration-none text-secondary" style="font-size:20px">Read
+                                More</a> <i class="fa fa-long-arrow-right " style="font-size:20px"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3">
+                    <!-- third hotel-->
+                    <div class="card">
+                        <a href="#"> <img src="img\pexels-photo-137090.jpeg" class="card-img-top"> </a>
+                        <!-- when i click on image will show more information about the hotel in image-->
+                        <div class="card-body">
+                            <h5 class="card-title">Rukn Kahramana Baghdad</h5> <!-- the name of hotel-->
+                            <p class="card-text">Located in Baghdad, Rukn Kahramana offers simply furnished units. Free
+                                WiFi is available in the rooms.Nearby tourist attractions and landmarks are a short room
+                            </p>
+                            <a href="#" class="mr-2 text-decoration-none text-secondary" style="font-size:20px">Read
+                                More</a> <i class="fa fa-long-arrow-right " style="font-size:20px"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="conviced mt-5 py-5">
+
+            <div class="text-center py-4">
+                <h2 class="text-white mb-4" style="font-size: 2.8rem;">Feeling convinced?</h2>
+                <p class="text-white mb-4" style="font-size: 1.2rem;">If you feeling conviced please booking now</p>
+                <button class="btn btn-outline-light py-2 px-3 mb-4" style="font-size: 1.3remem;">Booking Now</button>
+                <!-- if you conviced and click on it this button will takes you to the page responsible for the inquiries-->
+            </div>
+        </div>
+    </section>
+    <!-- end other hotels -->
+
+    <!-- start footer -->
+    <footer class="contact pt-5" id="contact">
+        <div class="container py-4">
+            <div class="row">
+                <!-- I used grid system To divide the screen into four equal parts in the middle screen-->
+                <!-- first part -->
+                <div class="col-md-3 mb-sm-4">
+                    <!-- about hotel-->
+                    <h4 class="text-white mb-4">Baghdad Hotel</h4>
+                    <p class=" mb-3">The Baghdad Hotel is a large hotel in Baghdad, Iraq, favored by Westerners after
+                        the 2003 invasion of Iraq. The hotel overlooks the Tigris on its eastern bank. <br> <br> The
+                        Baghdad Hotel Bombing Terror Attack Occurred On October 12, 2003</p>
+                </div>
+                <!-- second part -->
+                <div class="col-md-3 mb-sm-4">
+                    <!--other hotels with border-bottom for every hotel-->
+
+                    <h4 class="text-white mb-4"> Other Hotels </h4>
+                    <!-- first hotel -->
+                    <div class="border-bottom mb-3 py-1">
+                        <h5 class="mb-2">Rukn Kahramana Baghdad</h5>
+                        <span>Al-Jaderea</span>
+                    </div>
+                    <!-- second hotel -->
+                    <div class="border-bottom mb-3 py-1">
+                        <h5 class="mb-2">Andalus Apartments</h5>
+                        <span>Al-Jaderea</span>
+                    </div>
+                    <!-- third hotel -->
+                    <div class="border-bottom mb-3 py-1">
+                        <h5 class="mb-2">Coral Baghdad</h5>
+                        <span>Al-Jaderea</span>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-sm-4 useful">
+                    <!-- some links if you need it about this hotel-->
+                    <h4 class="mb-4 text-white">Useful Links</h4>
+                    <ul class="list-unstyled">
+                        <li class="border-bottom pb-2"> <a href="#" class="text-decoration-none">About us</a> </li>
+                        <li class="border-bottom py-2"><a href="#" class="text-decoration-none">prices</a></li>
+                        <li class="border-bottom py-2"><a href="#" class="text-decoration-none">Testimonial</a></li>
+                        <li class="border-bottom py-2"><a href="#" class="text-decoration-none">Our branches</a></li>
+                        <li class="border-bottom py-2"><a href="#" class="text-decoration-none">Our Agents</a></li>
+                        <li class="border-bottom py-2"><a href="#" class="text-decoration-none">Our pages</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-sm-4 shahad">
+                    <!-- this part will give you all way To correspond with those in charge of the page-->
+                    <h4 class="mb-4 text-white">Contact Details</h4>
+                    <ul class="my-4 list-">
+         <li class="border-bottom pb-3 pl-3 list-unstyled"><i class="fas fa-map-marker-alt mr-2"></i>Baghdad Road Alsaadon, Iraq</li>
+                        <li class="border-bottom p-3 list-unstyled"><i class="fas fa-phonemr-2"></i>07727858620
+                        </li>
+                        <li class="border-bottom p-3 list-unstyled"><i
+                                class="fas fa-envelope mr-2"></i>shahadarab19@gmail.com</li>
+                        <li class="border-bottom p-3 list-unstyled"><i
+                                class="fas fa-globe-americas mr-2"></i>http://www.baghdad.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright w-100 bg-dark text-center py-5 ">
+            <!-- copyright of this page-->
+            <p class="text-light">Copyright 2020. All rights reserved@<a href="#"
+                    class="text-decoration-none text-danger ml-1" style="font-size: 1.3rem;">Privacy</a> </p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script> <!-- call jquery page -->
+    <script src="js/popper.min.js"></script> <!-- call popper page-->
+    <script src="js/bootstrap.min.js"></script> <!-- call bootstrap javasceript page-->
+</body>
+
+</html>

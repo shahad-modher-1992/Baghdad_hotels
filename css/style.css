@@ -1,0 +1,170 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* start header */
+header
+ {                  /* I made background-image for header */
+    height: 100vh;
+    width: 100%;
+    background-image: url("../img/Screenshot 2020-09-24 150808.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header nav
+ {
+    background-color: rgba(0, 0, 0, .2) !important; 
+}
+header nav ul li a,     /* give the size to the text */
+header .center h5,
+header .center p 
+{
+    font-size: 1.2rem;
+}
+header .overlay  /* this div will nice category over header  */
+{   
+    background-color: rgba(0, 0, 0, .5); /* 5 is the Transparency  */
+    top:0; 
+    left:0
+}
+.center /* this div will appeare when i hover on it only */
+{   
+    left: 7%;  
+    top: 32%;  
+    opacity: 0;
+    transition: opacity 1s ease-in-out , transform 1s  ease-in-out ;  /* because hover will apply at opacity and top of center div */
+}
+.center:hover  /* apply hover on center div*/
+ {
+    opacity:1 ;
+    transform: translateY(-20px);
+}
+header .center h2
+ {
+    font-size: 3rem;
+}
+/* buttons section */
+header .center button
+{
+    transition: all .7s ease-in;  /* hover will apply at background-color and color of all button on the center div */
+}
+header .center button:first-of-type:hover    /* hover on first button in center */
+{
+    background-color: rgba(255, 255, 255, .6) !important;
+    color: #fff !important;
+}
+header .center button:last-of-type:hover   /* hover on first button in center*/
+{
+    color: #000 !important
+}
+/* end header */
+/* start definition section */
+.definition ul li:before  /* here i put icon before all li in defintion div */
+{
+    font-family: 'Font Awesome 5 free';
+    content: "\f005";
+    margin-right: 10px;
+    color: rgb(23, 135, 226)
+}
+.definition .part-2 i
+ {
+    font-size: 2rem;
+    color: #fff;
+}
+.definition .part-2 p
+ {
+    font-size: 1.1rem;
+}
+/* end definition */
+/* start about  */
+.about .part-3 
+{
+    background-image: url("../img/pexels-photo-374016.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.about .part-3 .overlay /* this div will give part-3 div nice category with lightblue color */
+ {
+    background-color: rgba(0, 0, 255, .7);
+    top:0;
+    left:0
+}
+.about p
+{
+    font-size: 1rem;
+}
+.about .part-3 i
+ {
+    font-size: 2rem;
+}
+/* end about */
+/* start service */
+.service p 
+{
+    font-size: 1.1rem;
+}
+/* end service */
+/* start booking */
+.booking .div  /* apply on all .div */
+ {
+    top:100%;
+    left: 30%;
+    transition: all 1.5s ease-in-out; 
+    color: #fff !important;
+}
+.parent
+ {
+    transition: all 1.5s ease-in-out;
+}
+.parent:hover 
+ {
+    opacity: .9;
+}
+.parent:hover .div  /* will apply on .div divs when i hover on parent div */
+{ 
+    top: 45%;
+    font-weight: bolder;
+}
+.booking .part-2 i:hover /* apply at heart icon */
+ {
+    color: red !important;
+}
+/* end booking */
+/* start service */
+.other-hotels .conviced 
+ {
+    background-color: rgba(0, 0, 255, .6);
+}
+/* end service */
+
+/* start footer */
+footer
+ {
+    background-color: #222 !important
+}
+footer,
+footer a
+ {
+    color: #aaa !important
+}
+footer .shahad /* set backgroun-image to last div only*/
+ {
+    background-image: url('../img/contact-details-map.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .useful ul li::before  /* put icon before all li in useful div only */ 
+{
+    font-family: 'Font Awesome 4 free';
+    content: "\f105";
+    font-size: 1rem;
+    color: #fff;
+    margin-right: 7px;
+}
+/* end footer */
